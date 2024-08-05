@@ -1,13 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Urazova Nina CV V1</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="./js/main.js"></script>
+    <main>
+        <div class="wrapper" id="main">
+            <img class="profile-img" src="./public/profileImg.png" alt="profileImg"/>
+            <section class="section info">
+                <div class="info__greeting-phrase">Hello 👋🏻 I’m</div>
+                <div class="info__main"></div>
+            </section>
+            <section class="section languages">
+                <div class="section__title">Languages</div>
+                <div class="languages__container">
+                    <ul class="languages__list"></ul>
+                    <ul class="languages__bars__list"></ul>
+                </div>
+            </section>
+            <section class="section experience">
+                <div class="section__title">Experience</div>
+                <ul class="experience__list"></ul>
+            </section>
+            <section class="section tools">
+                <div class="section__title">Tools</div>
+                <div class="tools__item">
+                    <div class="tools__item__title">design</div>
+                    <img class="tools__item__logo" src="./public/logos/figma.png" alt="figma"/>
+                    <img class="tools__item__logo" src="./public/logos/adobe_photoshop.png" alt="photoshop"/>
+                    <img class="tools__item__logo" src="./public/logos/adobe_illustrator.png" alt="illustrator"/>
+                    <img class="tools__item__logo" src="./public/logos/adobe_premiere.png" alt="premiere"/>
+                    <img class="tools__item__logo" src="./public/logos/notion.png" alt="notion"/>
+                    <img class="tools__item__logo" src="./public/logos/meet.png" alt="meet"/>
+                </div>
+                <div class="tools__item">
+                    <div class="tools__item__title">no-code</div>
+                    <img class="tools__item__logo" src="./public/logos/zapier.png" alt="zapier"/>
+                    <img class="tools__item__logo" src="./public/logos/webflow.png" alt="webflow"/>
+                    <img class="tools__item__logo" src="./public/logos/framer.png" alt="framer"/>
+                    <img class="tools__item__logo" src="./public/logos/wordpress.png" alt="wordpress"/>
+                </div>
+                <div class="tools__item">
+                    <div class="tools__item__title">artificial intelligence</div>
+                    <img class="tools__item__logo" src="./public/logos/chat_gpt.png" alt="chat gpt"/>
+                    <img class="tools__item__logo" src="./public/logos/copilot.png" alt="copilot"/>
+                    <img class="tools__item__logo" src="./public/logos/midjourney.png" alt="midjourney"/>
+                </div>
+            </section>
+            <section class="section education">
+                <div class="section__title">Education</div>
+                <ul class="education__list">
+                    <li class="education__list__item recent">
+                        <span class="education__list__item__date">2023</span>
+                        <span class="education__list__item__name">UI/UX</span>
+                        <ul class="education__tags__list">
+                            <li class="education__tags__list__item">#UX</li>
+                            <li class="education__tags__list__item">#UI</li>
+                            <li class="education__tags__list__item">#research</li>
+                            <li class="education__tags__list__item">#DesignSystem</li>
+                            <li class="education__tags__list__item">#Ui</li>
+                            <li class="education__tags__list__item">#wireframing</li>
+                            <li class="education__tags__list__item">#figma</li>
+                            <li class="education__tags__list__item">#Ux</li>
+                        </ul>
+                        <span class="education__list__item__place">Coursera</span>
+                    </li>
+                    <li class="education__list__item">
+                        <span class="education__list__item__date">2017 - 2022</span>
+                        <span class="education__list__item__name">Law</span>
+                        <ul class="education__tags__list">
+                            <li class="education__tags__list__item">#law</li>
+                            <li class="education__tags__list__item">#legalStudies</li>
+                            <li class="education__tags__list__item">#contracts</li>
+                            <li class="education__tags__list__item">#internationalLaws</li>
+                        </ul>
+                        <span class="education__list__item__place">University of Kerala</span>
+                    </li>
+                    <li class="education__list__item">
+                        <span class="education__list__item__date">2017</span>
+                        <span class="education__list__item__name">Graphic design</span>
+                        <ul class="education__tags__list">
+                            <li class="education__tags__list__item">#branding</li>
+                            <li class="education__tags__list__item">#web</li>
+                            <li class="education__tags__list__item">#illustration</li>
+                            <li class="education__tags__list__item">#adobe</li>
+                        </ul>
+                        <span class="education__list__item__place">Coursera</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="section interests">
+                <div class="section__title">Interests</div>
+                <ul class="interests__list">
+                    <li class="interests__list__item">branding</li>
+                    <li class="interests__list__item">design</li>
+                    <li class="interests__list__item">photography</li>
+                    <li class="interests__list__item">artificial intelligence</li>
+                    <li class="interests__list__item">illustration</li>
+                    <li class="interests__list__item">typography</li>
+                    <li class="interests__list__item">social networks</li>
+                    <li class="interests__list__item">research</li>
+                    <li class="interests__list__item">dron pilot</li>
+                    <li class="interests__list__item">games</li>
+                </ul>
+            </section>
+            <section class="section email">
+                <span class="email__title">Let´s chat! I´m ready to work on excinting projects</span>
+                <span class="email__string">srkarthik.designscape@gmail.com</span>
+            </section>  
+        </div>
+        <button class="button-download">Download</button>
+    </main>
+	<script src="./js/main.js"></script>
   </body>
 </html>
